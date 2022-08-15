@@ -1,0 +1,201 @@
+Inconsistência #0
+A aplicação Não envia o código de confirmação
+
+Comportamento Atual
+- Acesse a aplicação
+- Clique no Botão "Cadastrar"
+- Preencha o campo número do telefone celular e prossiga
+- Preencha o campo nome completo e prossiga
+- Na tela Compartilhar Localização Atual, clique em sim.
+
+Comportamento Esperado
+- A aplicação deveria enviar um código de confirmação para o celular informado.
+
+Dados de entrada
+telefone celular: (21)97543494
+
+Ambiente e Versão da Aplicação
+N/A
+
+Prioridade
+Alta
+
+Severidade
+Alta
+
+Identificado por
+Leandro Nunes
+
+Data e Hora:
+13/08/2022 - 17 hs
+
+Arquivos
+InformandoNumTel.JPG
+CodigoConfirmNaoEnviada.PNG
+===============================================================================================
+
+Inconsistência #1
+A aplicação PERMITE inclusão de Strings no campo número de telefone
+
+Comportamento Atual
+- Acesse a aplicação
+- Clique no Botão "Cadastrar"
+- Preencha o campo número do telefone celular com letras
+
+Comportamento Esperado
+- A aplicação deveria exibir um Alerta e impossibilitar a escrita de letras num campo somente para números
+
+Dados de entrada
+telefone celular: wefwefwewefwefew
+
+Ambiente e Versão da Aplicação
+N/A
+
+Prioridade
+Alta
+
+Severidade
+Alta
+
+Identificado por
+Leandro Nunes
+
+Data e Hora:
+13/08/2022 - 17 hs
+
+Evidências
+00:00:50 do vídeo SugestaoMelhoriaEvids.MP4
+================================================================================================================
+Inconsistência #2
+A aplicação PERMITE inclusão de números no campo Nome Completo
+
+Comportamento Atual
+- Acesse a aplicação
+- Clique no Botão "Cadastrar"
+- Preencha o campo número do telefone celular, clique no botão de avançar
+- Preencha o Campo nome Completo com números
+
+Comportamento Esperado
+- A aplicação deveria exibir um Alerta e impossibilitar a escrita de números num campo somente para letras
+
+Dados de entrada
+telefone celular: 000000000000
+
+Ambiente e Versão da Aplicação
+N/A
+
+Prioridade
+Alta
+
+Severidade
+Alta
+
+Identificado por
+Leandro Nunes
+
+Data e Hora:
+13/08/2022 - 17:05 hs
+
+Evidências
+00:01:36 do vídeo SugestaoMelhoriaEvids.MP4
+
+================================================================================================================
+Inconsistência #3
+A aplicação NÃO PERMITE simular e/ou consultar outra localização
+
+Comportamento Atual
+- Na tela com as informações sobre o clima, clique em cima da localização atual
+
+Comportamento Esperado
+- A aplicação deveria possibilitar simular e/ou consultar outra localização
+
+
+Dados de entrada
+Clicar em cima da localização atual
+
+Ambiente e Versão da Aplicação
+N/A
+
+Prioridade
+Média
+
+Severidade
+Média
+
+Identificado por
+Leandro Nunes
+
+Data e Hora:
+13/08/2022 - 17:10 hs
+
+Evidências
+00:03:30 do vídeo SugestaoMelhoriaEvids.MP4
+==========================================================================================================
+Inconsistência #4
+A aplicação NÃO PERMITE continuar o Cadastro sem o compartilhamento da Localização Atual
+
+Comportamento Atual
+- Acesse a aplicação
+- Clique no Botão "Cadastrar"
+- Preencha o campo número do telefone celular, clique no botão de avançar
+- Preencha o Campo nome Completo , clique no botão de avançar
+
+Comportamento Esperado
+- A aplicação deveria possibilitar o seguimento do cadastro, mesmo que o usuário não compartilhe a localização atual.
+
+Dados de entrada
+clicar na opção "NÃO" na tela "Compartilhar a localização"
+
+Ambiente e Versão da Aplicação
+N/A
+
+Prioridade
+Alta
+
+Severidade
+Alta
+
+Identificado por
+Leandro Nunes
+
+Data e Hora:
+13/08/2022 - 17:05 hs
+
+Evidências
+00:02:45 do vídeo SugestaoMelhoriaEvids.MP4
+
+================================================================================================================
+Inconsistência #
+Ao clicar em "Entrar", a aplicação permite o login sem validar os dados do usuário
+
+Comportamento Atual
+- Acesse a aplicação
+- Clique no Botão "Entrar"
+
+Comportamento Esperado
+- A aplicação deveria validar os dados(login e senha) do usuário.
+
+Dados de entrada
+clicar no botão "Entrar"
+
+Ambiente e Versão da Aplicação
+N/A
+
+Prioridade
+Alta
+
+Severidade
+Alta
+
+Identificado por
+Leandro Nunes
+
+Data e Hora:
+13/08/2022 - 17:10 hs
+
+Evidências
+00:08:02 do vídeo SugestaoMelhoriaEvids.MP4
+
+================================================================================================================
+
+

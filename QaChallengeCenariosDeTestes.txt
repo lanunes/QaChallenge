@@ -1,0 +1,56 @@
+Cenário 01: Tentativa Inválida de Cadastro 
+
+Caso de Teste 01 - Telefone celular Inválido
+Dado que o usuário clica em Cadastrar
+E informa um número de telefone Inválido
+Quando clicar no botão Avançar
+Então o sistema deverá apresentar a mensagem: “Número de telefone Inválido”
+
+====================================================================================
+Caso de Teste 02 - Usuário informa código de Confirmação Expirado
+
+Dado que o usuário informa um código de confirmação que já expirou
+Quando clica no botão Avançar
+Então o sistema deverá apresentar a mensagem: “Favor preencher o campo Número de celular novamente 
+e solicitar um novo código ”
+
+====================================================================================
+Caso de Teste 03 - Nome Completo em branco
+Dado que o usuário deixa o campo Nome Completo em branco
+Quando clica no botão Avançar
+Então o sistema deverá apresentar a mensagem: “Favor preencher o campo Nome Completo”
+
+====================================================================================
+
+Cenário 02: Não Compartilhamento da localização automática
+
+Caso de Teste 01 - Não compartilhamento da Localização automática ao efetuar o cadastro
+Dado que o usuário clica na opção "Não" na tela "Compartilhar a localização" no ato do cadastro
+Quando clicar no botão Avançar
+Então o sistema deverá apresentar a mensagem: “Não deixe de compartilhar a localização em tempo real.
+Assim você aproveita o melhor da experiência com Sowe”
+E mesmo não compartilhando a Localização em tempo real, o usuário segue utilizando a aplicação
+========================================================================================
+
+Caso de Teste 02 - Não compartilhamento da Localização automática ao efetuar o login
+Dado que o usuário clica na opção "Não" na tela "Compartilhar a localização" no ato do login
+Quando clicar no botão Avançar
+Então o sistema deverá apresentar a mensagem: “Não deixe de compartilhar a localização em tempo real.
+Assim você aproveita o melhor da experiência com Sowe”
+E mesmo não compartilhando a Localização em tempo real, o usuário segue utilizando a aplicação
+
+===========================================================================================
+Cenário 03 - Exibindo o clima com outros parâmetros
+
+Caso de Teste 01 - Usuário configura outra localização
+Dado que o usuário clica na opção "Não" na tela "Compartilhar a localização" no ato do login
+ou no ato do cadastro
+Quando a aplicação exibir a tela para inserir outra Localização
+E o usuário inserir essa outra Localização
+Então o sistema deverá apresentar as informações do clima, exibindo no canto superior direito da tela
+
+
+Caso de Teste 02 - Usuário configura outro período de tempo
+Dado que o usuário configura uma hora diferente da atual na funcionalidade que permite a troca do horário
+Quando o horário a ser consultado for definido
+Então o sistema deverá apresentar as informações do clima, a partir do horário selecionado pelo usuário.

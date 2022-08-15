@@ -1,0 +1,24 @@
+Sugestão 1) Cadastro pelo email
+
+Sugestão 2) Campo do número de Telefone impossibilitar a escrita de String
+
+Sugestão 3) Campo do nome impossibilitar a escrita de numeros
+
+Sugestão 4) Prosseguir mesmo com o não compartilhamento da Localização
+em tempo real
+
+Sugestão 5) Funcionalidade que permita alterar a localização atual
+
+Sugestão 6) Melhora do Layout das funcionalidades e ícones
+
+Sugestão 7) Funcionalidade que permita consultar o clima em outros dias
+ou semanas
+
+Sugestão 8) No cadastro do usuário por numero de telefone, indicar o 
+DDD do páis
+
+Sugestão 9) Validando o Brasil pelo código do país, encapsular o DDD do
+estado entre parênteses
+
+Sugestão 10) Na tela inicial, ao clicar no Botão de entrar, validar
+o login do Usuário
